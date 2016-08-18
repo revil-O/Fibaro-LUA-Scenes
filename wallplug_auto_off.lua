@@ -26,19 +26,19 @@ while true do
        then fibaro:debug('WallPlug ist eingeschaltet..');
     		fibaro:debug('Aktueller Verbrauch: '.. wp_power ..' Watt.');
        else fibaro:debug('Wallplug ist ausgeschaltet');
-     end;
+     end
      if (wp_power < low_power and wp_power > 0) then
      	sleep_counter = sleep_counter + sleep_value;
      else 
     	-- Zurücksetzen des SleepCounter wenn die angeschlossenen Geräte wieder
     	-- innnerhalb der eingestellten set_off_time eingeschaltet und genutzt werden 
         sleep_counter = 0;
-     end;
+     end
      if(sleep_counter == set_off_time and sleep_counter > 0)
     	then fibaro:debug('WallPlug wird nach ' .. set_off_time/1000/60 .. ' Minuten unter ' .. low_power .. ' \n Watt Verbrauch abgeschaltet.' );
      		 fibaro:call(wall_plug,"turnOff");
     		 sleep_counter = 0;
-     end;
-     fibaro:sleep(sleep_value)
+     end
+     fibaro:sleep(sleep_value);
      
 end
