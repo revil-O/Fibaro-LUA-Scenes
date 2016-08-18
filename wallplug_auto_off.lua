@@ -1,7 +1,12 @@
--- @file      wallplug_auto_off.lua
--- @author    oliver schmidt
--- @licence   creative commons
--- @date      2016-08-18
+-- @file      	wallplug_auto_off.lua
+-- @author    	oliver schmidt
+-- @date      	2016-08-18
+-- @licence   
+-- 		© Oliver Schmidt (tutorials at net-fx2 dot de)
+-- 		Unless stated otherwise, all lua-code of this Project is:
+--		Licensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported 
+--		http://creativecommons.org/licenses/by-nc-sa/3.0/
+
 
 --[[
 %% properties
