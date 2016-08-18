@@ -27,11 +27,12 @@ while true do
      fibaro:debug('SleepCounter: ' ..sleep_counter);
      local wp_power = tonumber(fibaro:getValue(wall_plug,"power"));
 	 --fibaro:debug(wp_power);
-     if(wp_power > 0) 
-       then fibaro:debug('WallPlug ist eingeschaltet..');
-    		fibaro:debug('Aktueller Verbrauch: '.. wp_power ..' Watt.');
-       else fibaro:debug('Wallplug ist ausgeschaltet');
-     end
+-- only for debugging
+--     if(wp_power > 0) 
+--       then fibaro:debug('WallPlug ist eingeschaltet..');
+--    		fibaro:debug('Aktueller Verbrauch: '.. wp_power ..' Watt.');
+--       else fibaro:debug('Wallplug ist ausgeschaltet');
+--     end
      if (wp_power < low_power and wp_power > 0) then
      	sleep_counter = sleep_counter + sleep_value;
      else 
