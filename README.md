@@ -9,6 +9,7 @@
 >http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ## wallplug_auto_off.lua
+> Category: ecological behaviour - energy saving
 
 - @de - LUA-Szene um Fibaro-Wallplugs auszuschalten, wenn der aktuelle Verbrauch über einen definierten Zeitraum eine Mindestschwelle unterschritten hat - hier:     40 Watt über einen Zeitraum von 4 Minuten
 - wird jedoch die Mindestschwelle überschritten, wird der Betrieb normal fortgesetzt
