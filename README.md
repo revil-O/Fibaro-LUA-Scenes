@@ -1,6 +1,12 @@
 # Fibaro-LUA-Scenes
 LUA-script Scenes for Fibaro HomeCenter 2
 
+# LICENSE
+>© Oliver Schmidt (tutorials at net-fx2 dot de)
+>
+>Unless stated otherwise in a files head all code of this Project is:
+>Licensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported
+>http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ## wallplug_auto_off.lua
 
