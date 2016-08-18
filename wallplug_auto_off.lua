@@ -13,7 +13,7 @@
 %% autostart
 %% globals
 --]]
-local sourceTrigger = fibaro:getSourceTrigger();
+
 local version = '1.0';
 local sleep_value = 60000;          -- SleepValue for while-loop
 local sleep_counter = 0;            -- initialize sleep_counter
@@ -22,6 +22,12 @@ local wall_plug = 57;               -- fibaro-ID of the desired wallplug
 local set_off_time = 240000;        -- 240 seconds -- 4 minutes
 
 fibaro:debug('Automatische WallplugAbschaltung bei EnergyLevel unter 40 Watt nach 3 Minuten (Ver.' .. version .. ')');
+
+if (fibaro:countScenes()>1)
+  then
+ 	fibaro:abort();
+  fibaro:debug('abort');
+end
 
 while true do
      fibaro:debug('SleepCounter: ' ..sleep_counter);
