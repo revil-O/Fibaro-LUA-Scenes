@@ -1,5 +1,5 @@
 # Fibaro-LUA-Scenes
-LUA-script Scenes for Fibaro HomeCenter 2
+>> LUA-script Scenes for Fibaro HomeCenter 2
 
 # LICENSE
 >© Oliver Schmidt (tutorials at net-fx2 dot de)
