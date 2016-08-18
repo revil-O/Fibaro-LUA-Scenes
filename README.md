@@ -2,7 +2,7 @@
 LUA-script Scenes for Fibaro HomeCenter 2
 
 
-## wallplug_outo_off.lua
+## wallplug_auto_off.lua
 
 - @de - LUA-Szene um Fibaro-Wallplugs auszuschalten, wenn der aktuelle Verbrauch über einen definierten Zeitraum eine Mindestschwelle unterschritten hat - hier:     40 Watt über einen Zeitraum von 4 Minuten
 
